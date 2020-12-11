@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 5px solid red;
+}
+h1 {
+    color: rgb(51, 146, 153);
+    text-align: center;
+    background-color: purple;
+    align-content: center;
+    border: 5px solid blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav  {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    border: 1px solid green;
+
+}
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 25px;
+    text-align: center;
+}
+.mainimage {
+    flex-wrap: wrap;
+    height: 20vh;
+    width: 100%;
+}
+.projectsbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-around;
+    border: 1px solid brown;
+}
+#contactme {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
